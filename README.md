@@ -35,13 +35,12 @@
 # Linux & Mac Note
 
     You'll have to run CrunchyKiller through mono. e.g.
-    ```crunchykiller -c inthing outthing``` becomes ```mono crunchykiller.exe -c inthing outthing```
+    `crunchykiller -c inthing outthing` becomes `mono crunchykiller.exe -c inthing outthing`
     The source is here if it helps any: https://github.com/JonathanDotCel/CrunchyKiller
     
 # Thanks
     
-    ```C
-
+```
 	static const char * const credits[] = {
 
 		"Doofy",
