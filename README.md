@@ -31,6 +31,12 @@
     It's often called a mid-boot hook and cuts down on code while also
     providing much better compatibility.
     
+
+# Linux & Mac Note
+
+    You'll have to run CrunchyKiller through mono. e.g.
+    `crunchykiller -c inthing outthing` becomes `mono crunchykiller.exe -c inthing outthing`
+    The source is here if it helps any: https://github.com/JonathanDotCel/CrunchyKiller
     
 # Thanks
     
