@@ -14,13 +14,13 @@ l_shared:
 
 
 #
-# Copy an uncompressed .exe from ROM into RAM
+#   Copy an uncompressed .exe from ROM into RAM
 #   Reads in the location of the .EXE relative to the rom , then adds 0x800
 #   for the first chunk of executable code. This is written to 0x80010000 in
 #   most cases.
 #   I.e.  0x1f000000 + 1000 (rom size) + 800 (exe header) writes out to 0x80010000
 #
-#   Note: does not clear
+#   Note: does not clear .bss, registers, etc.
 #
 
 # a0 = where's the data
