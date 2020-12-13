@@ -65,7 +65,7 @@ binmark:
             .align 4
 
 #
-# The end of the assembly, myfile.exe is glued on the end
+# The end of the assembly; myfile.exe is glued on here
 #
 exe_01:
             
