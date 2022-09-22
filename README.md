@@ -4,7 +4,8 @@
 
 # ROMProd 0.4
 	
-    https://github.com/JonathanDotCel
+    home: https://github.com/JonathanDotCel
+	discord: https://psx.dev 
     
 
     Allows you to pack .exe files into an instant-boot ROM for 
